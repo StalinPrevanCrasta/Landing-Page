@@ -70,6 +70,8 @@ h1 {
 
 .container {
     display: flex;
+    justify-content: center;
+    align-items:center;
     gap:20px;
     width:100%;
 }
@@ -83,7 +85,7 @@ h1 {
 }
 .quote {
     background-color:#E5E7EB;
-    font-size:36px;
+    font-size:24px;
     font-style:italic;
     color:#1F2937;
     padding:50px 150px;
@@ -95,3 +97,36 @@ h1 {
     font-weight: bold;  
 }
 
+.product {
+    background-color: #3882F6;
+    color:white;
+    margin:75px 150px;
+    padding:50px;
+    font-size: 24px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.description {
+    flex:1;
+}
+
+.sign_up2 {
+    color:#F9FAF8;
+    border:2px solid white;
+    border-radius:4px;
+    background-color:#3882F6;
+    padding:8px 30px;
+    margin:30px;
+    font-size:12px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1F2937;
+    color:white;
+    padding:25px;
+    text-align: center;
+}
