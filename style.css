@@ -1,33 +1,36 @@
 body {
-    margin:0;
+    margin: 0;
 }
 
 header {
     background-color: #1F2937;
-    color:#F9FAF8;
-    padding:10px 150px;
+    color: #F9FAF8;
+    padding: 10px 150px;
     font-size: 18px;
-    
+
 }
+
 .headline {
-    display:flex;
-    align-items:center;
-    margin:30px 0;
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    flex-wrap: wrap;
+
 }
 
 .logo {
-    margin-right:auto
+    margin-right: auto
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    gap:12px;
+    gap: 30px;
 }
 
 a {
-   text-decoration:none;
-   color:#F9FAF8;
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 h1 {
@@ -36,100 +39,110 @@ h1 {
 }
 
 .header {
-    display:flex;
-    gap:12px;
-    margin:40px 0;
+    display: flex;
+    gap: 12px;
+    margin: 40px 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 .tagline {
-    flex:1;
-    padding:20px 0;
+    padding: 20px 0;
+    height: 300px;
+    width: 450px;
 }
+
 .main_image {
     background-color: #E5E7EB;
-    color:black;
-    flex:1;
+    color: black;
+    height: 300px;
+    width: 450px;
 }
+
 .sign_up1 {
-    background-color:#3882F6;
-    border-radius:4px;
-    color:white;
-    padding:8px 20px;
-    font-size:12px;
-    border:0;
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 20px;
+    font-size: 12px;
+    border: 0;
     font-weight: bold;
 }
 
-h1 {
-    text-align:center;
+h2 {
+    text-align: center;
 }
 
 .center {
-   padding: 10px 150px;
-   font-size: 24px;
+    padding: 10px 150px;
+    font-size: 24px;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    align-items:center;
-    gap:20px;
+    align-items: center;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .items {
-   width:200px;
+    width: 200px;
 }
 
-.box { 
-    height:150px;
-    border:3px solid rgb(65, 118, 216);
+.box {
+    height: 150px;
+    border: 3px solid rgb(65, 118, 216);
     border-radius: 5px;
-    padding:10px;
+    padding: 10px;
 }
+
 .quote {
-    background-color:#E5E7EB;
-    font-size:24px;
-    font-style:italic;
-    color:#1F2937;
-    padding:50px 150px;
-    font-weight:100;
+    background-color: #E5E7EB;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 50px 150px;
+    font-weight: 100;
 }
+
 .author {
-    text-align:right;
+    text-align: right;
     font-style: normal;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 .product {
     background-color: #3882F6;
-    color:white;
-    margin:75px 150px;
-    padding:50px;
+    color: white;
+    margin: 75px 150px;
+    padding: 50px;
     font-size: 24px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .description {
-    flex:1;
+    flex: 1;
 }
 
 .sign_up2 {
-    color:#F9FAF8;
-    border:2px solid white;
-    border-radius:4px;
-    background-color:#3882F6;
-    padding:8px 30px;
-    margin:30px;
-    font-size:12px;
+    color: #F9FAF8;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #3882F6;
+    padding: 8px 30px;
+    margin: 30px;
+    font-size: 12px;
     font-weight: bold;
 }
 
 footer {
     background-color: #1F2937;
-    color:white;
-    padding:25px;
+    color: white;
+    padding: 25px;
     text-align: center;
 }
